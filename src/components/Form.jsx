@@ -6,6 +6,7 @@ const Form = () => (
     <label htmlFor="Author">
       <input type="text" id="auhor" placeholder="Enter the author's name" />
     </label>
+    <button className="submit-btn" type="submit">Submit</button>
   </form>
 );
 export default Form;

@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import React from 'react';
+import PropTypes from 'prop-types';
 import Form from './Form';
 
 const Books = ({ title, author }) => (
@@ -21,5 +22,15 @@ const Books = ({ title, author }) => (
     </div>
   </>
 );
+
+Books.propTypes = {
+  title: PropTypes.string,
+  author: PropTypes.string,
+};
+
+Books.defaultProps = {
+  title: '',
+  author: '',
+};
 
 export default Books;
