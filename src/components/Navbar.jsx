@@ -3,7 +3,7 @@ const Navbar = () => (
       <h1>Bookstore</h1>
       <div className="links-container">
         <a className="links" href="/">Books</a>
-        <a className="links" href="/calculator">Categories</a>
+        <a className="links" href="/categories">Categories</a>
       </div>
     </nav>
   );
