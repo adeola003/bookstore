@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Math Magician</b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magician] <a name="about-project"></a>
+# 📖 [Bookstore] <a name="about-project"></a>
 
-**[Math-magician]** This project is an basic calculator web app  that allows users to perform simple calculations.
+**[Bookstore]** This project is an web app that replicate a bookstore and give user possibility to add and remove books.
 
 ## 🛠 Built With <a name="HTML, CSS, Javascript and React"></a>
 
@@ -89,8 +89,8 @@ Open terminal on the same folder of the project and run:
 Clone this repository to your desired folder:
 
 ```sh
-  git https://github.com/adeola003/math-magician.git
-  cd math-magician
+  git https://github.com/adeola003/bookstore.git
+  cd bookstore
 ```
 
 ### Install
@@ -151,10 +151,6 @@ To check for js errors run:
 - GitHub: [@githubhandle](https://github.com/adeola003)
 - Twitter: [@twitterhandle](https://twitter.com/khadaf6)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdel-khafid-salaou-a18396161)
-
-👤 **Yacoubou Seidou**
-
-- GitHub: [@Yacoubou-seidou](https://github.com/Yacoubou-seidou)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
