@@ -54,10 +54,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [x] Create a simple calculation web app
-- [x] Add all necessary operations for basic a basic calculator.
+- [x] Create a simple bookstore web app
+- [x] Add all necessary fetures for adding and removing books.
 - [x] Used React technology.
-- [x] Used hooks to fetch data from an API and display random quotes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +159,7 @@ To check for js errors run:
 
 - [x] Add test to the project using jest
 - [x] Add the live demo for the project
-- [x] Add new some features to the project
+- [x] Add new interesting features to the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,7 +169,7 @@ To check for js errors run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/adeola003/math-magician/issues](issue page).
+Feel free to check the [https://github.com/adeola003/bookstore/issues](issue page).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
