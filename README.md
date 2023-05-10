@@ -36,7 +36,7 @@
 
 **[Bookstore]** This project is an web app that replicate a bookstore and give user possibility to add and remove books.
 
-## 🛠 Built With <a name="HTML, CSS, Javascript and React"></a>
+## 🛠 Built With <a name="HTML, CSS, Javascript, React & redux"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -47,6 +47,7 @@
     <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
     <li><a href="https://www.javascript.com/">"Javascript"</a></li>
     <li><a href="https://fr.legacy.reactjs.org/">"React"</a></li>
+    <li><a href="https://redux.js.org/introduction/getting-started">"Redux"</a></li>
   </ul>
 </details>
 
@@ -56,7 +57,7 @@
 
 - [x] Create a simple bookstore web app
 - [x] Add all necessary fetures for adding and removing books.
-- [x] Used React technology.
+- [x] Used React and Redux technology.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
