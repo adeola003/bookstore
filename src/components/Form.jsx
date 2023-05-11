@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice';
+import { postBook } from '../redux/books/booksSlice';
 
 const Form = () => {
   const dispatch = useDispatch();
@@ -16,7 +16,7 @@ const Form = () => {
         category: 'Uncategorized',
       };
 
-      dispatch(addBook(newBook));
+      dispatch(postBook(newBook));
       event.target.reset();
     } else {
       alert('Enter a book title and the author');

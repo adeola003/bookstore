@@ -1,10 +1,15 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Form from './Form';
 import Book from './Book';
+import { fetchBook } from '../redux/books/booksSlice';
 
 const BooksContainer = () => {
   const booksList = useSelector((store) => store.book.booksList);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchBook());
+  }, []);
 
   return (
     <>
