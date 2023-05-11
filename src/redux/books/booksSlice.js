@@ -47,7 +47,6 @@ const booksSlice = createSlice({
         state.status = 'loading';
       })
       .addCase(fetchBook.fulfilled, (state, action) => {
-        console.log(action);
         state.status = 'succeeded';
         state.booksList = action.payload;
       })
