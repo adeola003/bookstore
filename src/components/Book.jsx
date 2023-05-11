@@ -7,7 +7,6 @@ const Book = ({ bookObject }) => {
   const dispatch = useDispatch();
   const handleRemoveBook = () => {
     dispatch(removeBook(bookObject.item_id));
-    console.log('Deleted successfully');
   };
 
   return (
