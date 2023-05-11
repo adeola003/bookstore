@@ -2,22 +2,24 @@ import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/books/booksSlice';
 
 const Form = () => {
-  const dispacth = useDispatch();
+  const dispatch = useDispatch();
   const handleSubmit = (event) => {
     event.preventDefault();
-    if(event.target.title.value && event.target.author.value){
+    const title = event.target.title.value;
+    const author = event.target.author.value;
+
+    if (title && author) {
       const newBook = {
         item_id: `item${Date.now()}`,
-        title: event.target.title.value,
-        author: event.target.author.value,
+        title,
+        author,
         category: 'Uncategorized',
-      }
-      
-      dispacth(addBook(newBook))
+      };
+
+      dispatch(addBook(newBook));
       event.target.reset();
-    }
-    else {
-      alert('Enter a book title and the author')
+    } else {
+      alert('Enter a book title and the author');
     }
   };
 
@@ -27,9 +29,9 @@ const Form = () => {
         <input type="text" id="title" placeholder="Enter the book title" />
       </label>
       <label htmlFor="Author">
-        <input type="text" id="auhor" placeholder="Enter the author's name" />
+        <input type="text" id="author" placeholder="Enter the author's name" />
       </label>
-      <button className="submit-btn" type="submit" onClick={()=>dispacth(addBook())}>Submit</button>
+      <button className="submit-btn" type="submit">Submit</button>
     </form>
   );
 };
