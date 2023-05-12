@@ -29,10 +29,6 @@ const BookProgress = () => {
           strokeLinecap="round"
           fill="none"
         />
-        <text x="50%" y="50%" textAnchor="middle" dy=".3em" fontSize="16">
-          {randomPercentage}
-          %
-        </text>
       </svg>
       <p>
         {randomPercentage}
