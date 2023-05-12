@@ -1,4 +1,5 @@
-import {FaUser}
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => (
   <nav className="navbar">
@@ -7,7 +8,7 @@ const Navbar = () => (
       <a className="links BOOKS" href="/">Books</a>
       <a className="links CATEGORIES" href="/categories">Categories</a>
     </div>
-    <div><img src="" alt="Icon" /></div>
+    <div><FontAwesomeIcon icon={faUser} /></div>
   </nav>
 );
 
