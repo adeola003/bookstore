@@ -95,6 +95,8 @@
   margin-bottom: 20px;
 }
 
+/* Progress section */
+
 .book-progress {
   margin-left: auto;
   padding-right: 10%;
@@ -109,116 +111,19 @@
   width: fit-content;
 }
 
-.book-element {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  padding-top: 10px;
-  padding-left: 2%;
-}
-
-.book-category {
-  width: 3.063rem;
-  height: 1.125rem;
-  margin: 0 2.438rem 0 0;
-  opacity: 0.5;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.875rem;
-  font-weight: bold;
+.completion {
+  width: 3.25rem;
+  height: 2.038rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #121212;
-}
-
-.book-title {
-  height: 1.813rem;
-  margin: 0.188rem 20.188rem 0 0;
-  font-family: "RobotoSlab", sans-serif;
-  font-size: 1.175rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.2px;
-  color: #121212;
-  white-space: nowrap;
-}
-
-.book-author {
-  width: 6.688rem;
-  height: 1.188rem;
-  margin: 0.25rem 0 0;
-  font-family: "RobotoSlab", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #4386bf;
-}
-
-.remove {
-  width: 4.563rem;
-  height: 1.188rem;
-  font-family: "RobotoSlab", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #4386bf;
-  border: none;
-  background: none;
-  padding-left: 0;
-}
-
-.comment {
-  width: 3.375rem;
-  height: 1.188rem;
-  margin: 0.188rem 0.938rem 0.125rem 0;
-  font-family: "RobotoSlab", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #4386bf;
-  border: none;
-  background: none;
-}
-
-.edit {
-  width: 1.688rem;
-  height: 1.188rem;
-  margin: 0.188rem 18.625rem 0.125rem 1.063rem;
-  font-family: "RobotoSlab", sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #4386bf;
-  border: none;
-  background: none;
-}
-
-.book-btns {
-  display: flex;
-}
-
-.Line-2 {
-  position: relative;
-  width: 0.125rem;
-  height: 1.1rem;
-  margin: 0.75rem 1.063rem 0 0.938rem;
-  border: solid 1px #e8e8e8;
-  bottom: 10px;
+  line-height: 0.7;
 }
 
 .Completed {
@@ -283,6 +188,122 @@
   color: #fff;
   border-radius: 3px;
   background-color: #0290ff;
+}
+
+
+/* Books informations */
+
+.book-element {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 10px;
+  padding-left: 2%;
+}
+
+.book-category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book-title {
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1.175rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+  white-space: nowrap;
+}
+
+.book-author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.book-btns {
+  display: flex;
+  align-items: center;
+}
+
+.remove {
+  width: 4.563rem;
+  height: 1.188rem;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+  background: none;
+  padding-left: 0;
+}
+
+.comment {
+  width: 3.375rem;
+  height: 1.188rem;
+  margin: 0.188rem 0.938rem 0.125rem 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+  background: none;
+}
+
+.edit {
+  width: 1.688rem;
+  height: 1.188rem;
+  margin: 0.188rem 18.625rem 0.125rem 0.263rem;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+  background: none;
+}
+
+.Line-2 {
+  position: relative;
+  width: 0.125rem;
+  height: 1.1rem;
+  margin: 0.75rem 0.463rem 0 0.338rem;
+  border: solid 1px #e8e8e8;
+  bottom: 5px;
 }
 
 /* FORM STYLING */

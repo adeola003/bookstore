@@ -30,7 +30,7 @@ const BookProgress = () => {
           fill="none"
         />
       </svg>
-      <p>
+      <p className="completion">
         {randomPercentage}
         %
         <br />
