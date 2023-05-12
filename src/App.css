@@ -117,12 +117,11 @@
   width: 3.25rem;
   height: 2.038rem;
   margin: 0.063rem 5.75rem 0 0.688rem;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #121212;
   line-height: 0.7;
@@ -359,7 +358,7 @@
   height: 2.313rem;
   border-radius: 3px;
   background-color: #0290ff;
-  font-family: RobotoSlab;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 0.613rem;
   font-weight: bold;
   font-stretch: normal;
