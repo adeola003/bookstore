@@ -34,7 +34,7 @@
 
 # 📖 [Bookstore] <a name="about-project"></a>
 
-**[Bookstore]** This project is an web app that replicate a bookstore and give user possibility to add and remove books.
+**[Bookstore]** This project is an web app that replicate a bookstore and give user possibility to add and remove books using react-redux, and an API for interractions.
 
 ## 🛠 Built With <a name="HTML, CSS, Javascript, React & redux"></a>
 
@@ -58,6 +58,7 @@
 - [x] Create a simple bookstore web app
 - [x] Add all necessary fetures for adding and removing books.
 - [x] Used React and Redux technology.
+- [x] Used `axios` to POST, GET and DELETE data from the API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
