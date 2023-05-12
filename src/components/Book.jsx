@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { delBook } from '../redux/books/booksSlice';
+import BookProgress from './BookProgress';
 
 const Book = ({ bookObject }) => {
   const dispatch = useDispatch();
@@ -17,14 +18,7 @@ const Book = ({ bookObject }) => {
         <small className="book-author">{bookObject.author}</small>
         <button type="submit" className="remove" onClick={handleRemoveBook}>remove</button>
       </div>
-      <div className="book-progress">
-        <img src="" alt="" />
-        <p>
-          70%
-          <br />
-          <span>Completed</span>
-        </p>
-      </div>
+      <BookProgress />
       <div className="porgress-details">
         <small>CURRENT CHAPTER</small>
         <p>Chapter 17</p>

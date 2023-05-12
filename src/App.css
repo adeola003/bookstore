@@ -1,3 +1,74 @@
 .App-body {
-  text-align: center;
+  background-color: #fafafa;
 }
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  align-items: baseline;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.links-container {
+  display: flex;
+  column-gap: 20px;
+}
+
+.navbar h1 {
+  width: 15rem;
+  height: 2.313rem;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+
+}
+
+.links {
+  text-decoration: none;
+}
+
+.BOOKS {
+  width: 3.688rem;
+  height: 1rem;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.CATEGORIES {
+  width: 6.563rem;
+  height: 1rem;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+/* Books styling */
+
+.book-wrap {
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+
