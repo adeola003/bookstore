@@ -28,7 +28,7 @@ const Book = ({ bookObject }) => {
       <div className="progress-details">
         <p className="Current-Chapter">CURRENT CHAPTER</p>
         <p className="Current-Lesson">Chapter 17</p>
-        <div className="Rectangle-2"><span className="Update-progress">Update progress</span></div>
+        <div className="Rectangle-2"><span className="Update-progress">UPDATE PROGRESS</span></div>
       </div>
     </div>
   );
