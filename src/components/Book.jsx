@@ -16,13 +16,19 @@ const Book = ({ bookObject }) => {
         <p className="book-category">{bookObject.category}</p>
         <strong className="book-title">{bookObject.title}</strong>
         <small className="book-author">{bookObject.author}</small>
-        <button type="submit" className="remove" onClick={handleRemoveBook}>remove</button>
+        <div className="book-btns">
+          <button type="submit" className="remove" onClick={handleRemoveBook}>remove</button>
+          <div className="Line-2"> </div>
+          <button type="submit" className="comment">Comment</button>
+          <div className="Line-2"> </div>
+          <button type="submit" className="edit">Edit</button>
+        </div>
       </div>
       <BookProgress />
-      <div className="porgress-details">
-        <small>CURRENT CHAPTER</small>
-        <p>Chapter 17</p>
-        <button type="submit">UPDATE PROGRESS</button>
+      <div className="progress-details">
+        <p className="Current-Chapter">CURRENT CHAPTER</p>
+        <p className="Current-Lesson">Chapter 17</p>
+        <div className="Rectangle-2"><span className="Update-progress">Update progress</span></div>
       </div>
     </div>
   );

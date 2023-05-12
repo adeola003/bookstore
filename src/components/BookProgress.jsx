@@ -3,7 +3,7 @@ import React from 'react';
 const BookProgress = () => {
   const randomPercentage = Math.floor(Math.random() * 100);
   const strokeWidth = 10;
-  const radius = 40;
+  const radius = 35;
   const circumference = 2 * Math.PI * radius;
   const progressOffset = circumference - (randomPercentage / 100) * circumference;
 
@@ -38,7 +38,7 @@ const BookProgress = () => {
         {randomPercentage}
         %
         <br />
-        <span>Completed</span>
+        <span className="Completed">Completed</span>
       </p>
     </div>
   );
