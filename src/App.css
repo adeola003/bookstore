@@ -172,6 +172,7 @@
   border-radius: 3px;
   background-color: #0290ff;
   text-align: center;
+  padding-top: 4px;
 }
 
 .Update-progress {
@@ -186,8 +187,10 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
+  opacity: 0.7;
   border-radius: 3px;
   background-color: #0290ff;
+  padding-top: 4px;
 }
 
 /* Books informations */
