@@ -16,7 +16,10 @@ const BooksContainer = () => {
       <section className="books-container">
         {booksList.map((book) => <Book key={book.item_id} bookObject={book} />)}
       </section>
-      <section className="form container"><Form /></section>
+      <section className="form-container">
+        <h3 className="form-header">ADD NEW BOOK</h3>
+        <Form />
+      </section>
     </>
   );
 };

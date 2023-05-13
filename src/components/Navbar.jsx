@@ -1,9 +1,15 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
 const Navbar = () => (
   <nav className="navbar">
-    <h1>Bookstore</h1>
-    <div className="links-container">
-      <a className="links" href="/">Books</a>
-      <a className="links" href="/categories">Categories</a>
+    <div className="nav-elements">
+      <h1>Bookstore ADE</h1>
+      <div className="links-container">
+        <a className="links BOOKS" href="/">Books</a>
+        <a className="links CATEGORIES" href="/categories">Categories</a>
+      </div>
+      <div className="faUser"><FontAwesomeIcon icon={faUser} /></div>
     </div>
   </nav>
 );

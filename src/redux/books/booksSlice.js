@@ -55,7 +55,7 @@ const booksSlice = createSlice({
         state.error = action.error.message;
       })
       .addCase(postBook.fulfilled, (state, action) => {
-        state.booksList.push(action.payload);
+        state.booksList = [...state.booksList, action.payload];
       })
       .addCase(delBook.fulfilled, (state, action) => {
         state.booksList = state.booksList.filter((book) => book.item_id !== action.payload);

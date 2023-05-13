@@ -31,7 +31,7 @@ const Form = () => {
       <label htmlFor="Author">
         <input type="text" id="author" placeholder="Enter the author's name" />
       </label>
-      <button className="submit-btn" type="submit">Submit</button>
+      <button className="submit-btn" type="submit">ADD BOOK</button>
     </form>
   );
 };

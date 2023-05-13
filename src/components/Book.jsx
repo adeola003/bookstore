@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { delBook } from '../redux/books/booksSlice';
+import BookProgress from './BookProgress';
 
 const Book = ({ bookObject }) => {
   const dispatch = useDispatch();
@@ -15,20 +16,19 @@ const Book = ({ bookObject }) => {
         <p className="book-category">{bookObject.category}</p>
         <strong className="book-title">{bookObject.title}</strong>
         <small className="book-author">{bookObject.author}</small>
-        <button type="submit" className="remove" onClick={handleRemoveBook}>remove</button>
+        <div className="book-btns">
+          <button type="submit" className="remove" onClick={handleRemoveBook}>remove</button>
+          <div className="Line-2"> </div>
+          <button type="submit" className="comment">Comment</button>
+          <div className="Line-2"> </div>
+          <button type="submit" className="edit">Edit</button>
+        </div>
       </div>
-      <div className="book-progress">
-        <img src="" alt="" />
-        <p>
-          70%
-          <br />
-          <span>Completed</span>
-        </p>
-      </div>
-      <div className="porgress-details">
-        <small>CURRENT CHAPTER</small>
-        <p>Chapter 17</p>
-        <button type="submit">UPDATE PROGRESS</button>
+      <BookProgress />
+      <div className="progress-details">
+        <p className="Current-Chapter">CURRENT CHAPTER</p>
+        <p className="Current-Lesson">Chapter 17</p>
+        <div className="Rectangle-2"><span className="Update-progress">UPDATE PROGRESS</span></div>
       </div>
     </div>
   );
